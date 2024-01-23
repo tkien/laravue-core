@@ -3,8 +3,7 @@
     "description": "A Laravel package to provide a beatiful datashboard built by VueJS and Element-UI",
     "type": "library",
     "require": {
-        "php": ">7.4|>8",
-        "tymon/jwt-auth": "^1.0"
+        "php": ">7.4|>8"
     },
     "autoload": {
         "psr-4": {
