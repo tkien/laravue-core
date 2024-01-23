@@ -41,9 +41,9 @@ class SetupCommand extends Command
     public function handle()
     {
         // Call jwt:secret command
-        $this->info('>>> Running: php artisan jwt:secret');
-        sleep(1);
-        $this->call('jwt:secret');
+        // $this->info('>>> Running: php artisan jwt:secret');
+        // sleep(1);
+        // $this->call('jwt:secret');
 
         if (file_exists($path = $this->envPath()) === false) {
             $this->comment('Seems your .env does not exist, please setup.');
